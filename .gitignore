@@ -1,0 +1,25 @@
+# Virtual Environments
+backend/venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Production builds
+dist/
+frontend/dist/
+
+# Logs and environment variables
+*.log
+.env
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Ignore duplicate model in root (tracked in backend/models/)
+/final_cotton_disease_model.keras
